@@ -1,0 +1,7 @@
+08/03/2024 7:00am
+Hoy me dispuse a hacer una interface grafica para hacer un menu de inicio para el usuario, en el cual se le mostrara un menu con las opciones de:
+
+- Crear un nueva partida
+- Cargar partida
+- Salir
+
