@@ -1,11 +1,10 @@
 import java.util.Scanner;
 
   public class Player {
-    public static void main(String[] args) {
-      import Enemy
-      import Main
-      protected int Fuerza;
-      protected int Espiritu;
+      Enemy Enemy = new Enemy();
+      Main Main = new Main();
+      public int Fuerza;
+      public int Espiritu;
       protected int ExpPoints;
       protected int LevelBar;
       public int Level;
@@ -20,10 +19,10 @@ import java.util.Scanner;
         Fuerza = sc.nextInt();
         System.out.println("Espiritu");
         Espiritu = sc.nextInt();
-        }
+      }
       
-      public boolean attack extends Player(int A, int B) {
-        if (A > B) {
+      public boolean attack(int Fuerza, int VidaM) {
+        if (Fuerza > VidaM) {
           System.out.println("Has ganado la pelea");
           return true;
             } 
@@ -31,14 +30,14 @@ import java.util.Scanner;
             System.out.println("Has perdido la pelea");
             return false;
           }
-        }
+      }
       
         public void level(boolean A, int B) {
           if (A) {
               LevelBar = ExpPoints + B;
           }
           else {
-      
+
           }
         }
         public void levelUP(int A) {
@@ -48,4 +47,3 @@ import java.util.Scanner;
           }
         }
       }
-    }

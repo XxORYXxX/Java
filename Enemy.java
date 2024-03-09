@@ -13,7 +13,7 @@ public class Enemy {
   protected void enemy() {
     System.out.println("Se ha creado un enemigo");
   }
-  class EnemyG {
+  class Goblin extends Enemy{
     public void enemy() {
     NombreM = "Goblin";
     VidaM = 10;
