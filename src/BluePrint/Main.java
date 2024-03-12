@@ -23,9 +23,9 @@ public class Main {
                 File x = new File ( "\"C:\\Users\\jdsas\\Documents\\GitHub\\Game.txt\"" );
                 Scanner FileV = new Scanner ( x );
                 Formatter f = new Formatter ( "\"C:\\Users\\jdsas\\Documents\\GitHub\\Game.txt\"" );
-                f.format ( "%s %s %S" , "Fuerza" , player.Fuerza );
-                f.format ( "%s %s %S" , "Espiritu" , player.Espiritu );
-                f.format ( "%s %s %S" , "Nombre" , player.Nombre );
+                f.format ( "%s %s" , "Fuerza" , player.Fuerza );
+                f.format ( "%s %s" , "Espiritu" , player.Espiritu );
+                f.format ( "%s %s" , "Nombre" , player.Nombre );
                 System.out.println ( FileV );
             } catch (Exception e) {
                 System.err.println ( "Error" + e );
