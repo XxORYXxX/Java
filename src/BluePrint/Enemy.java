@@ -20,6 +20,7 @@ public class Enemy {
 class Goblin extends Enemy {
     public void Monster () {
         NombreM = "Goblin";
+        TipoM =
         RazaM = "Goblin";
         VidaM = 10;
         ExperienciaM = 200;
@@ -31,3 +32,4 @@ class Goblin extends Enemy {
         System.out.println ( "Se ha creado un Goblin" );
     }
 }
+

@@ -37,11 +37,12 @@ public class Player {
         if ( A ) {
             LevelBar = ExpPoints + B;
         } else {
-            LevelBar = LevelBar + 0;
+            System.out.print("");
+            System.out.write ( 3 );
         }
     }
-
-    private void levelUP () {
+    @SuppressWarnings ("unused")
+    public void levelUP () {
         if ( LevelBar == 100 ) {
             System.out.println ( "!Has subido de nivel!" );
             Level++;
